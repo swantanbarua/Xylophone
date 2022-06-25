@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="gXx-HW-0f6">
                                 <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRN-pl-vbm" userLabel="C">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRN-pl-vbm" userLabel="C Key">
                                         <rect key="frame" x="0.0" y="0.0" width="428" height="81.666666666666671"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFY-vV-eZd">
@@ -33,6 +33,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofl-CG-wqA"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vej-1y-zdp"/>
                                                 </connections>
                                             </button>
@@ -45,7 +46,7 @@
                                             <constraint firstAttribute="bottom" secondItem="uFY-vV-eZd" secondAttribute="bottom" id="s5r-yk-Ffd"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zl0-rE-s8W" userLabel="D">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zl0-rE-s8W" userLabel="D key">
                                         <rect key="frame" x="0.0" y="109.66666666666666" width="428" height="81.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGP-yZ-PKo">
@@ -59,6 +60,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XpC-kX-WaQ"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bca-5e-gBi"/>
                                                 </connections>
                                             </button>
@@ -71,7 +73,7 @@
                                             <constraint firstItem="YGP-yZ-PKo" firstAttribute="top" secondItem="zl0-rE-s8W" secondAttribute="top" id="sCX-Ji-HzT"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9N2-Ed-ZV9" userLabel="E">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9N2-Ed-ZV9" userLabel="E key">
                                         <rect key="frame" x="0.0" y="218.99999999999997" width="428" height="81.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Px0-Es-1Fw">
@@ -85,6 +87,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hj2-NR-vxh"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YRs-JF-IXo"/>
                                                 </connections>
                                             </button>
@@ -97,7 +100,7 @@
                                             <constraint firstItem="Px0-Es-1Fw" firstAttribute="leading" secondItem="9N2-Ed-ZV9" secondAttribute="leading" id="rzk-un-jPG"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wC6-iX-XBw" userLabel="F">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wC6-iX-XBw" userLabel="F key">
                                         <rect key="frame" x="0.0" y="328.66666666666669" width="428" height="81.333333333333314"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9y-sd-1iM">
@@ -111,6 +114,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ELx-J0-ukd"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eyu-B0-uNb"/>
                                                 </connections>
                                             </button>
@@ -123,7 +127,7 @@
                                             <constraint firstItem="C9y-sd-1iM" firstAttribute="top" secondItem="wC6-iX-XBw" secondAttribute="top" id="YYZ-Lo-tq7"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-zu-Usc" userLabel="G">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-zu-Usc" userLabel="G key">
                                         <rect key="frame" x="0.0" y="438" width="428" height="81.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcm-O4-7aD">
@@ -137,6 +141,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wv-UZ-gbS"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o6a-QG-e7f"/>
                                                 </connections>
                                             </button>
@@ -149,7 +154,7 @@
                                             <constraint firstItem="Wcm-O4-7aD" firstAttribute="top" secondItem="UA2-zu-Usc" secondAttribute="top" id="t9U-Eo-5Hf"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-EK-qGa" userLabel="A">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-EK-qGa" userLabel="A key">
                                         <rect key="frame" x="0.0" y="547.66666666666663" width="428" height="81.333333333333371"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s59-4m-jjK">
@@ -163,6 +168,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zqg-Yx-kPH"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAf-Th-sL1"/>
                                                 </connections>
                                             </button>
@@ -175,7 +181,7 @@
                                             <constraint firstItem="s59-4m-jjK" firstAttribute="leading" secondItem="M2R-EK-qGa" secondAttribute="leading" id="kTH-OA-q9r"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb2-jL-sej" userLabel="B">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb2-jL-sej" userLabel="B key">
                                         <rect key="frame" x="0.0" y="657" width="428" height="81.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="su9-fW-KKn">
@@ -189,6 +195,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNv-18-rdk"/>
                                                     <action selector="xylophoneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIa-lP-6ft"/>
                                                 </connections>
                                             </button>
@@ -242,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-53" y="-107"/>
+            <point key="canvasLocation" x="743" y="-813"/>
         </scene>
     </scenes>
     <resources>
