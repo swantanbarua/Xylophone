@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func xylophoneButtonPressed(_ sender: UIButton) {
 
-        player = try! AVAudioPlayer(contentsOf: Bundle.main.url(forResource: "\(sender.currentTitle!)", withExtension: "wav")!)
+        player = try! AVAudioPlayer(contentsOf: Bundle.main.url(forResource: String(sender.currentTitle!), withExtension: "wav")!)
         player.play()
     }
 }
