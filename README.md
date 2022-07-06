@@ -7,6 +7,9 @@ https://user-images.githubusercontent.com/85452778/177502868-3eced08d-1b14-49d8-
 
 # UI Snapshots
 
+<img src="Xylophone/Images/Launchscreen.png" height="200">
+<img src="Xylophone/Images/Potrait.png" height="200">
+<img src="Xylophone/Images/Potrait.png" height="400">
 
 # Techstack
 <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="80" height="80"/> </a>  <a href="https://getuikit.com" target="_blank" rel="noreferrer"> <img src="Xylophone/Images/uikit.svg" alt="uikit" width="80" height="80"/> </a>
