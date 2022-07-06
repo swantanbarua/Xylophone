@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/85452778/177502868-3eced08d-1b14-49d8-
 # UI Snapshots
 
 <img src="Xylophone/Images/Launchscreen.png" height="400">
-<img src="Xylophone/Images/Potrait.png" width="400">
+<img src="Xylophone/Images/Potrait.png" width="300">
 <img src="Xylophone/Images/Landscape.png" height="400">
 
 # Techstack
