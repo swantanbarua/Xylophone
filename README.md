@@ -3,5 +3,5 @@ Xylophone App to play sounds
 
 
 
-https://user-images.githubusercontent.com/85452778/177500807-5944d5cc-ff67-47de-a0a8-b4036cd4c44d.mov
+https://user-images.githubusercontent.com/85452778/177502868-3eced08d-1b14-49d8-89c2-189ccc714108.mov
 
